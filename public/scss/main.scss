@@ -1,0 +1,57 @@
+@import "fonts";
+@import "variables";
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 2000px;
+}
+
+.header {
+
+
+    .header-text {
+        height: 120vh;
+    }
+
+    .navbar-brand {
+        span {
+            color: $primaryColor;
+            font-weight: 700;
+            font-size: 1.1em;
+        }
+    }
+
+    #navbarNav {
+        .navbar-nav {
+            .nav-item {
+                .nav-link {
+                    color: $primaryColor;
+                    font-weight: 500;
+                    margin-left: 1.2em;
+                    transition: 0.3s color ease;
+
+                    &:hover {
+                        color: $secondaryColor;
+                    }
+                }
+
+                .sign-up-button {
+                    background-color: $primaryColor;
+                    color: white;
+                    border-radius: 10px;
+                    border: 0px;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    padding: 10px 20px;
+                    transition: 0.8s color ease;
+
+                    &:hover {
+                        background-color: darken($color: #fff, $amount: 90%);
+                        color: $primaryColor;
+                    }
+                }
+            }
+        }
+    }
+}

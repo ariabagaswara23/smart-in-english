@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 2000px;
+}
+
+.header .header-text {
+  height: 120vh;
+}
+
+.header .navbar-brand span {
+  color: #143b84;
+  font-weight: 700;
+  font-size: 1.1em;
+}
+
+.header #navbarNav .navbar-nav .nav-item .nav-link {
+  color: #143b84;
+  font-weight: 500;
+  margin-left: 1.2em;
+  -webkit-transition: 0.3s color ease;
+  transition: 0.3s color ease;
+}
+
+.header #navbarNav .navbar-nav .nav-item .nav-link:hover {
+  color: #273d63;
+}
+
+.header #navbarNav .navbar-nav .nav-item .sign-up-button {
+  background-color: #143b84;
+  color: white;
+  border-radius: 10px;
+  border: 0px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  -webkit-transition: 0.8s color ease;
+  transition: 0.8s color ease;
+}
+
+.header #navbarNav .navbar-nav .nav-item .sign-up-button:hover {
+  background-color: #1a1a1a;
+  color: #143b84;
+}
