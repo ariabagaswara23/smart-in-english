@@ -7,6 +7,7 @@ body {
 
 .header .header-text {
   height: 120vh;
+  background-image: url("../img/Group 2.svg");
 }
 
 .header .navbar-brand span {
